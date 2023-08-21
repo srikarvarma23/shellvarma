@@ -11,6 +11,7 @@ else
  echo "installaton of mysql is success"
 fi 
 }
+
 if [ $USERID -ne 0 ]
 then 
  echo "installation will be failure, do it with root"
