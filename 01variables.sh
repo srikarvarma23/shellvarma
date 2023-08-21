@@ -1,11 +1,11 @@
 #!/bin/bash
 
 
-name=$srikar
-name1=$srinivas
+NAME=$srikar
+NAME1=$srinivas
 
-echo "srikar: hi ra $name1"
-echo "srinivas: hi ra $name"
-echo "srikar: eroju plans em levu ga $name1 movie ki veldam"
-echo "srinivas: levu ra $name , em movie ki veldam"
-echo "srikar: saaho ki"
+echo "$NAME: hi ra $NAME1"
+echo "$NAME1: hi ra $NAME"
+echo "$NAME: eroju plans em levu ga $NAME1 movie ki veldam"
+echo "$NAME1: levu ra $NAME , em movie ki veldam"
+echo "$NAME: saaho ki"
