@@ -5,10 +5,10 @@ USERID=$(id -u)
 VALIDATE(){
 if [ $1 -ne 0 ]
 then 
- echo "installation of mysql is error"
+ echo "installation  is error"
  exit 1 
 else 
- echo "installaton of mysql is success"
+ echo "installaton is success"
 fi 
 }
 
