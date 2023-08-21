@@ -2,7 +2,7 @@
 
 USERID=$(id -u)
 
-VARMA(){
+VALIDATE(){
 if [ $1 -ne 0 ]
 then 
  echo "installation of mysql is error"
@@ -19,9 +19,9 @@ fi
 
 yum install mysql -y 
 
-VARMA $? 
+VALIDATE $? 
 
 yum install postfix -y 
 
-VARMA $?
+VALIDATE $?
 
