@@ -1,10 +1,10 @@
 #!/bin/bash
 
-number=$1
-if[ $number -gt 20 ]
+NUMBER=$1
+if[ $NUMBER -gt 20 ]
 then 
-  echo "number is greater than 20"
-  
+  echo "$NUMBER is greater than 20"
+
 else 
-   echo "number is not greater than 20"
+   echo "$NUMBER is not greater than 20"
  fi
