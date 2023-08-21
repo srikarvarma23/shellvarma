@@ -2,8 +2,8 @@
 
 echo "hi reayu"
 
-NAME=$srikar
-NAME1=$srinivas
+NAME=srikar
+NAME1=srinivas
 
 echo "$NAME: hi ra $NAME1"
 echo "$NAME1: hi ra $NAME"
