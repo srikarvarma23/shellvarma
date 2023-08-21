@@ -7,7 +7,7 @@ then
  exit 1
 fi
 
-yum install mysql -y 
+yum install mysqqqqlllll -y 
 
 if [ $? -ne 0 ]
 then 
