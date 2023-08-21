@@ -4,8 +4,8 @@
 name=$srikar
 name1=$srinivas
 
-echo "$name: hi ra $name1"
-echo "$name1: hi ra mawa"
-echo "$name: eroju plans em levu ga movie ki veldam"
-echo "$name1: levu ra , em movie ki veldam"
-echo "$name: saaho ki"
+echo "srikar: hi ra $name1"
+echo "srinivas: hi ra $name"
+echo "srikar: eroju plans em levu ga $name1 movie ki veldam"
+echo "srinivas: levu ra $name , em movie ki veldam"
+echo "srikar: saaho ki"
