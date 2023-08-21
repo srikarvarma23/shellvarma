@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo "hi reayu"
 
 NAME=$srikar
 NAME1=$srinivas
