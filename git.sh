@@ -1,6 +1,16 @@
 #!/bin/bash
 
 USERID=$(id -u)
+
+VARMA(){
+if [ $1 -ne 0 ]
+then 
+ echo "installation of mysql is error"
+ exit 1 
+else 
+ echo "installaton of mysql is success"
+fi 
+}
 if [ $USERID -ne 0 ]
 then 
  echo "installation will be failure, do it with root"
@@ -9,21 +19,9 @@ fi
 
 yum install mysql -y 
 
-if [ $? -ne 0 ]
-then 
- echo "installation of mysql is error"
- exit 1 
-else 
- echo "installaton of mysql is success"
-fi 
+VARMA $? 
 
 yum install postfix -y 
 
-if [ $? -ne 0 ]
-then 
-  echo "installation of postfix is error"
-  exit 1
-else
-  echo "installation of postfix is success"
-fi
+VARMA $?
 
