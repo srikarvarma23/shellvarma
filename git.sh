@@ -6,3 +6,5 @@ then
  echo "installation will be failure, do it with root"
  
 fi
+
+yum install git -y 
