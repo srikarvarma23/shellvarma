@@ -2,6 +2,12 @@
 
 echo "enter username"
 
-read USERNAME
+read -s USERNAME
 
 echo "username entered is: $USERNAME"
+
+echo "enter passwd"
+
+read -s PASSWORD
+
+echo "asswd enterd is: $PASSWORD"
