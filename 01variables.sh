@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "hi reayu"
+echo "hi rea"
 
 NAME=naveen
 NAME1=nithin

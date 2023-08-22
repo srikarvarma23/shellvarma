@@ -1,6 +1,16 @@
 #!/bin/bash
 
-for i in {1..500}
+USERID=$(id -u)
+
+if [ $USERID -ne 0 ];
+then 
+ echo "error: please do it with root access"
+ exit 1 
+fi 
+
+
+
+for i in $@
 do 
- echo $i
-done
+   yum install $i -y 
+done 
