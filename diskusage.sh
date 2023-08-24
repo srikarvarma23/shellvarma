@@ -17,6 +17,13 @@ DISK_USAGE_THRESHOLD=0.5
 while IFS= read line 
 do 
 
- echo "output: $line"
+usage=$(echo $line | awk '{print $6}' | cut -d % -f 1)
+partition=$(echo $line | awk '{print $1}')
 
+if [ $usage gt $DISK_USAGE_THRESHOLD ]
+then 
+  message+=" $R it is running out of disk storage $N"
+ fi 
 done <<< $DISK_USAGE
+
+echo -e "message: $message"
