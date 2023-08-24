@@ -11,7 +11,7 @@ Y="\e[33m"
 N="\e[0m"
 
 DISK_USAGE=$(df -hT | grep -vE 'tmpfs|Filesystem')
-DISK_USAGE_THRESHOLD=0.5
+DISK_USAGE_THRESHOLD=1
 
 
 while IFS= read line 
